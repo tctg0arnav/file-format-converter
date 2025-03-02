@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/pico.lime.min.css">
+    <title>File Format Converter</title>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <article class="card">
+            <header>File Format Converter</header>
+            <form action="/" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file">
+                <select name="convertto" id="convertto">
+                    <option value="png">PNG</option>
+                    <option value="jpg">JPG</option>
+                </select>
+                <input class="button" type="submit" value="Convert">
+            </form>
+        </article>
+    </div>
+</body>
+</html>
