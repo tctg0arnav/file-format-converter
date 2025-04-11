@@ -12,4 +12,5 @@ Run the flask app. Upload your file, select the format. Can't be much simpler th
 - Dynamic list based on upload file format
 - Copy to clipboard functionality
 - Context Menu (TBD)
-- More file formats (documents, videos, etc.)
+- ~~Add Video~~ ✅ Added Video
+- Add More Formats
